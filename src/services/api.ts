@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-  baseURL: "http://192.168.1.8:8000/api", // à adapter selon backend
+  baseURL: "https://dashboard.render.com/project/prj-d6iorgpdrdic73d6rvv0", // à adapter selon backend
 })
 
 api.interceptors.request.use((config) => {

@@ -111,7 +111,7 @@ const totalPending = computed(() => {
 
       <div>
         <h1 class="text-3xl font-bold text-dark">
-          Tableau de bord
+          Tableau de bordeaurdd
         </h1>
         <p class="text-gray-500 mt-1">
           Bienvenue {{ auth.user?.nom }}
